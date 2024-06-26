@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
-body{
-height:100vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 #Quote-Box {
     height: 200px;
     width: 270px;
@@ -30,8 +28,17 @@ height:100vh;
     outline: 0;
     border: 1px solid brown;
     border-radius: 25px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
 }
 
+#button:hover {
+    background-color: rgba(255, 231, 95, 0.795);
+}
+#button:active{
+    color: brown;
+    background-color: antiquewhite;
+}
 #title-text {
     color: #181515;
     font-family: "Playwrite US Modern", cursive;
