@@ -1,19 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
 #Quote-Box {
-    height: 100px;
-    width: 250px;
-    background-color: bisque;
+    height: 200px;
+    width: 270px;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 
 #total {
-    height: 150px;
-    width: 250px;
+    height: 200px;
+    width: 270px;
     display: flex;
     flex-direction: column;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 #button {
@@ -27,6 +31,14 @@
 }
 
 #title-text {
+    color: #181515;
+    font-family: "Playwrite US Modern", cursive;
     text-align: center;
     margin-bottom: 40px;
+}
+
+#Quotes {
+    font-size: 13px;
+    text-align: center;
+    font-family: "Bungee Spice", sans-serif;
 }
